@@ -1,0 +1,16 @@
+{
+  "name": "@monorepo-wdio-cucumber/wdio-cucumber-two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ddown": "wdio run wdio.conf.js --cucumberOpts.tagExpression='@dropdownradiocheckbox'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@monorepo-wdio-cucumber/wdio-cucumber-one": "1.0.0"
+  }
+}

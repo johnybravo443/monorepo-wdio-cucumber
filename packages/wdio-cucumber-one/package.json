@@ -1,0 +1,14 @@
+{
+    "name": "@monorepo-wdio-cucumber/wdio-cucumber-one",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "wdio": "wdio run wdio.conf.js",
+        "sanity": "wdio run wdio.conf.js --cucumberOpts.tagExpression='@sanity'",
+        "smoke": "wdio run wdio.conf.js --cucumberOpts.tagExpression='@smoke'",
+        "regression": "wdio run wdio.conf.js --cucumberOpts.tagExpression='@regression'"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

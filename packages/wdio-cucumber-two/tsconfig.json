@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig",
+  "compilerOptions": {
+    "types": [
+      "node",
+      "webdriverio/async",
+      "@wdio/cucumber-framework",
+      "expect-webdriverio"
+    ],
+    "baseUrl": "."
+  },
+  "include": ["**/*.js"],
+  "exclude": ["node_modules", "features/**/*.feature"]
+}
